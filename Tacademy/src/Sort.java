@@ -2,21 +2,31 @@ class SelectSort {
 	int[] numbers;
 
 	SelectSort() {
-		//Default Constructor		
+		// Default Constructor
 	}
 
-	SelectSort(int[] numbers) {//Get an array
+	SelectSort(int[] numbers) {// Get an array
 		this.numbers = numbers;
 	}
-	void execute(){
-		//제일 작은 수 구하기 
-		for(int i=0;i<numbers.length;i++)
-		{
-			
+
+	int findMinNum(int num) {
+		// 제일 작은 수 구하기
+		int i = num;
+		for (; i < numbers.length; i++) {
+
 		}
+		return 0;
 	}
 
-	void display() {//show an array
+	void swap() {// 숫자바꾸기
+
+	}
+
+	void execute() {
+
+	}
+
+	void display() {// show an array
 		for (int i = 0; i < numbers.length; i++) {
 			if (i == numbers.length - 1) {
 				System.out.print(numbers[i]);
