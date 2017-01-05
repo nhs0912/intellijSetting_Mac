@@ -1,4 +1,5 @@
 <keymap version="1" name="Default copy" parent="$default">
+  <action id="CopyElement" />
   <action id="Debug">
     <keyboard-shortcut first-keystroke="shift f9" />
     <keyboard-shortcut first-keystroke="f11" />
@@ -10,13 +11,30 @@
   <action id="FindInPath" />
   <action id="ImplementMethods" />
   <action id="MethodHierarchy.ImplementMethodAction" />
+  <action id="Move" />
+  <action id="NextDiff" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
     <keyboard-shortcut first-keystroke="shift ctrl f" />
   </action>
+  <action id="Refresh" />
+  <action id="Rerun" />
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift f10" />
     <keyboard-shortcut first-keystroke="ctrl f11" />
+  </action>
+  <action id="SmartStepInto">
+    <keyboard-shortcut first-keystroke="ctrl f5" />
+  </action>
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="shift f8" />
+    <keyboard-shortcut first-keystroke="f7" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="f6" />
   </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt enter" />
@@ -38,4 +56,6 @@
   </action>
   <action id="ToggleBookmark" />
   <action id="ToggleBookmarkWithMnemonic" />
+  <action id="UML.ApplyCurrentLayout" />
+  <action id="UsageView.Rerun" />
 </keymap>
